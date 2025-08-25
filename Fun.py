@@ -80,7 +80,7 @@ class Employee_Attrition:
 
                         ]
         
-        cat_col = df.select_dtypes(include=['object']).drop(columns=['attrition'])
+        cat_col = df.select_dtypes(include=['object'])
         cat_col_num = df[['joblevel','performancerating']]
         num_col = df.select_dtypes(exclude=['object']).drop(columns=['joblevel','performancerating'])
 
