@@ -44,8 +44,8 @@ The main goals of this project are:
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/your-username/employee-attrition-prediction.git
-cd employee-attrition-prediction
+git clone https://github.com/arun8nov/Employee_Attrition.git
+cd Employee_Attrition
 ```
 
 ### 2️⃣ Create Virtual Environment & Install Dependencies  
@@ -108,8 +108,11 @@ Install using:
 ```bash
 pip install -r requirements.txt
 ```
+---
+## 🖼️ Live Dashboard : https://employeeattrition-nvm8wyzpya2ibywbkypylw.streamlit.app/
 
-
+## 🖼️ Dashboard Screenshot
+![image](SS.png)
 
 ## 👨‍💻 Author  
 Developed by **[Arunprakash B]** ✨  
