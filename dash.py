@@ -367,7 +367,7 @@ class chart:
     def PR_job(self,df):
         fig = px.imshow(df.pivot_table(index='jobrole',columns='performancerating',values='employeenumber',aggfunc='count'),
                 text_auto=True,
-                title='Department wise Performance Rating'
+                title='Jobrole wise Performance Rating'
                 )
         
         fig.update_layout(
